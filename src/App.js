@@ -66,23 +66,17 @@ function App() {
    //       ...formInput,
    //       ...changeState
    //    } )
-   //   }
 
    return (
       <div className="App">
-         {/* <h1>{IncidentNumber}</h1> */}
-         {/* <h1>{formInput.title}</h1>
-      <h1>{formInput.id}</h1> */}
-         {/* <p>{IncidentNumber}</p>    */}
-         {/* <input onChange={e => handleForm({id : e.target.value})}/>
-      <input onChange={e => handleForm({title: e.target.value})}/> */}
+       
          <div className='header'>
    
             <h1>Incident Management System</h1>
             <p>Track and manage incidents efficiently. Report and view incidents in one place.</p>
          </div>
          <div className='input-buttons'>
-            <p> Add Incident</p>
+            <p> Add Incidents...</p>
             <div>status:<br></br><input onChange={handleStatusChange} value={Status} /><br></br> </div>
             <div>IncidentNumber:<br></br><input onChange={handleIncidentChange} value={IncidentNumber} /><br></br></div>
 
