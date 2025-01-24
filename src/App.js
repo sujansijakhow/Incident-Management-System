@@ -47,7 +47,7 @@ function App() {
          alert("Please fill in all the input fields before adding a card.");
          return;
        }
-       
+
       const newCardList =
       {
          incidentNumber: IncidentNumber,
@@ -89,7 +89,7 @@ function App() {
             <div>Title:<br></br><input onChange={handleTitleChange} value={Title} /><br></br></div>
             <div>Time:<br></br><input onChange={handleTimeChange} value={Time} /> <br></br></div>
             <div>Priority:<br></br><input onChange={handlePriorityChange} value={Priority} /><br></br></div>
-            <div><button onClick={handleEventAdd}>AddCard</button></div>
+            <div><button className='btn' onClick={handleEventAdd}>AddCard</button></div>
         </div>
         <div className='body'>
         {
