@@ -42,6 +42,12 @@ function App() {
    }
 
    const handleEventAdd = () => {
+
+      if (!IncidentNumber || !Title || !Time || !Priority || !Status) {
+         alert("Please fill in all the input fields before adding a card.");
+         return;
+       }
+       
       const newCardList =
       {
          incidentNumber: IncidentNumber,
