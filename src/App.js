@@ -1,5 +1,6 @@
 import './App.css'
 import Card from "./component/card";
+import NavBar from './component/NavBar';
 import { useState } from "react";
 
 function App() {
@@ -76,6 +77,7 @@ function App() {
    return (
       <div className="App">
        
+         <NavBar />
          <div className='header'>
    
             <h1>Incident Management System</h1>
