@@ -4,8 +4,8 @@ function NavBar () {
 
 
     return (
-        <div>
-
+        <div className="nav">
+            <h1>Incidentsss...</h1>
         </div>
     )
 }
