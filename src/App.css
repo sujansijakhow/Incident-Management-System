@@ -45,9 +45,9 @@
 }
 
 .input-buttons {
-  width: 400px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 10px;
   margin-bottom: 20px;
 }
@@ -72,6 +72,19 @@
   display: flex;
   gap: 15px;
 }
+
+.body {
+  display: flex;
+  gap: 15px;
+}
+
+/* Apply column layout for mobile screens */
+@media (max-width: 768px) {
+  .body {
+    flex-direction: column;
+  }
+}
+
 
 .btn {
   color: black;
